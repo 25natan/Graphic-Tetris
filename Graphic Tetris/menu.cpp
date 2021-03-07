@@ -13,7 +13,7 @@ Menu::Menu()
 	m_color = sf::Color(100, 100, 0);
 
 	//Set the text style for all the writing.
-	m_textStyle = sf::Text::Style::Italic;
+	m_textStyle = sf::Text::Style::Bold;
 }
 //==============================================================
 int Menu::run(sf::RenderWindow& window, sf::Event& event)
